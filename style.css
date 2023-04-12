@@ -5,9 +5,10 @@ body{
     justify-content: center; 
     width: 100vw;
     height: 100px;
+    margin-top: 10%;
 }
 .screen{
-    width:4vw;
+    width:39px;
     height: 1vw;
 }
 .CalcBody{
@@ -18,8 +19,26 @@ margin-top: 15%;
     height: 66px;
 
 }
+.first-row{
+    display: flex;
+}
 .screen{
-    width: 180px;
+    width: 236px;
     height: 66px;
+    border: solid 1px pink;
 
+}
+.operators{
+    width: 76px;
+    height: 66px;
+}
+.decimal {  width: 76px;
+    height: 66px;}
+.clear {
+    width: 76px;
+    height: 66px;
+}
+.equal{
+    width: 76px;
+    height: 66px;
 }
